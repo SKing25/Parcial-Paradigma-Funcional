@@ -1,3 +1,6 @@
+-- Al cerrar un expendio de naranjas, 15 clientes que aún no han pagado recibirán un 15% de 
+-- descuento si compran más de 10 kilos. Determinar cuánto pagará cada cliente y cuanto 
+-- percibirá la tienda por esas compras.
 
 calcularPrecio :: Float -> Float -> Float
 calcularPrecio kilos precioKilo =
