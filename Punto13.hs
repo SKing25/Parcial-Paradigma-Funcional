@@ -4,14 +4,15 @@
 
 calcularPrecio :: Float -> Float -> Float
 calcularPrecio kilos precioKilo =
-    let precio = kilos * precioKilo
-    in if kilos > 10 then precio * 0.85
-       else precio
+    let precio = kilos * precioKilo -- Calcula el precio total sin descuento
+    in if kilos > 10 then precio * 0.85 -- Aplica un 15% de descuento si se compran más de 10 kilos
+       else precio -- Si no, devuelve el precio total sin descuento
 
 mostrarCompra :: [(Float, Float)] -> String
 mostrarCompra compras = 
     unlines ["Cliente " ++ show i ++ ": $" ++ show (calcularPrecio k p) 
             | (i, (k, p)) <- zip [0..] compras] ++
+            -- zip combina dos listas
             "Total tienda: $" ++ show (sum [calcularPrecio k p | (k, p) <- compras])
 
 -- Datos de ejemplo
