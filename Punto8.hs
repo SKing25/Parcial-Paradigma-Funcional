@@ -2,3 +2,7 @@
 -- luego los visualice.
 cuadrados1Al10 :: [Int]
 cuadrados1Al10 = map (^2) [1..10] -- transformo cada elemento de la lista [1..10] al cuadrado
+
+-- Para ejecutar:
+-- :l Punto8
+-- cuadrados1Al10

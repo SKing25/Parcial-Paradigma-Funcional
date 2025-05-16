@@ -8,3 +8,8 @@ calcularPrecioLlantas :: Int -> Float
 calcularPrecioLlantas cantidad
     | cantidad < 5 = fromIntegral cantidad * 150000 -- Precio por llanta si se compran menos de 5
     | otherwise    = fromIntegral cantidad * 138000 -- Precio por llanta si se compran 5 o más
+
+-- Para ejecutar:
+-- :l Punto2
+-- calcularPrecioLlantas 3
+-- calcularPrecioLlantas 6

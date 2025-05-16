@@ -13,4 +13,6 @@ generarHoras = [formatearHora h m s | h <- [0..23], m <- [0..59], s <- [0..59]]
     -- funciona como un ciclo anidado (entre mas a la derecha mas adentro esta en el ciclo)
     -- h va de 0 a 23, m va de 0 a 59 y s va de 0 a 59
 
+-- Para ejecutar:
+-- :l Punto11
 -- > mapM_ putStrLn generarHoras

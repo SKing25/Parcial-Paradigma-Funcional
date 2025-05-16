@@ -15,3 +15,15 @@ calcularPrecioConDescuento nombre clave precioOriginal =
         "clave: " ++ clave ++ "\n" ++
         "precio original: $" ++ show precioOriginal ++ "\n" ++
         "precio con descuento: $" ++ show precioFinal
+
+-- Datos de ejemplo
+nombreEjemplo :: String
+nombreEjemplo = "Articulo 1"
+claveEjemplo :: String
+claveEjemplo = "01"
+precioOriginalEjemplo :: Float
+precioOriginalEjemplo = 100.0
+
+-- Para ejecutar:
+-- :l Punto1
+-- putStrLn $ calcularPrecioConDescuento nombreEjemplo claveEjemplo precioOriginalEjemplo

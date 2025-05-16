@@ -10,3 +10,11 @@ contarMayoresMenoresPromedio lista =
     in "promedio: " ++ show promedio ++ "\n" ++
        "mayores: " ++ show mayores ++ "\n" ++
        "menores: " ++ show menoresIguales
+
+-- Datos de ejemplo
+listaEjemplo :: [Float]
+listaEjemplo = [1.5, 2.0, 3.5, 4.0, 5.5, 6.0, 7.5, 8.0, 9.5, 10.0]
+
+-- Para ejecutar:
+-- :l Punto7
+-- putStrLn $ contarMayoresMenoresPromedio listaEjemplo

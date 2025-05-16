@@ -18,3 +18,11 @@ calcularModa lista = snd $ maximum [(length (filter (==x) lista), x) | x <- list
     -- La función length cuenta la cantidad de elementos que cumplen la condición
     -- La función maximum devuelve el elemento máximo de la lista
     -- La función snd devuelve el segundo elemento de una tupla
+
+-- Datos de ejemplo
+listaEjemplo :: [Int]
+listaEjemplo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10]
+
+-- Para ejecutar:
+-- :l Punto3
+-- putStrLn $ mayorMenorModa listaEjemplo

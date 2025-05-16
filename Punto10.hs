@@ -9,3 +9,10 @@ existeSumaIgual lista = any (\x -> x == sum (filter (/= x) lista)) lista
     -- sum suma los elementos de la lista (la nueva lista)
     -- compara si la suma es igual a x
     
+-- Datos de ejemplo
+listaEjemplo :: [Int]
+listaEjemplo = [1, 2, 3, 4, 5, 15]
+
+-- Para ejecutar:
+-- :l Punto10
+-- > existeSumaIgual listaEjemplo
