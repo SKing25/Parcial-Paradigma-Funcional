@@ -26,4 +26,4 @@ precioOriginalEjemplo = 100.0
 
 -- Para ejecutar:
 -- :l Punto1
--- putStrLn $ calcularPrecioConDescuento nombreEjemplo claveEjemplo precioOriginalEjemplo
+-- putStrLn $ calcularPrecioConDescuento nombreEjemplo claveEjemplo precioOriginalEjemplo 
