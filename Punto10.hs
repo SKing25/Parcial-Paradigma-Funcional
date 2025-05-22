@@ -15,4 +15,4 @@ listaEjemplo = [1, 2, 3, 4, 5, 15]
 
 -- Para ejecutar:
 -- :l Punto10
--- > existeSumaIgual listaEjemplo
+-- existeSumaIgual listaEjemplo
