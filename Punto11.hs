@@ -15,4 +15,4 @@ generarHoras = [formatearHora h m s | h <- [0..23], m <- [0..59], s <- [0..59]]
 
 -- Para ejecutar:
 -- :l Punto11
--- > mapM_ putStrLn generarHoras
+-- mapM_ putStrLn generarHoras
